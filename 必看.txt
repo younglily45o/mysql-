@@ -1,0 +1,12 @@
+执行源码后：
+username：admin
+password：admin123
+Host: localhost
+
+备份数据库：
+mysqldump -u [username] -p student_db > [路径] 备份文件.sql
+还原数据库：
+mysql -u [username] -p student_db < [路径] 备份文件.sql
+
+路径根据需要更改，如：
+mysqldump -uadmin -padmin123 student_db > C:/Users/PC/Desktop/备份文件.sql
